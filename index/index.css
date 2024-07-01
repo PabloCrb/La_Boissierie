@@ -13,7 +13,7 @@ header {
     background: linear-gradient(#C8CDE4, #EDEDED);
     position: sticky;
     top: 0;
-    z-index: 1000; /* Asegura que el header esté por encima del contenido */
+    z-index: 1000;
 }
 
 header span {
@@ -64,4 +64,5 @@ header span {
 
 .Spacer {
     height: 8vh;
+    z-index: -100;
 }
