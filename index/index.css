@@ -1,25 +1,43 @@
-#OpcionesLeft .opciones{
-    font-size: 1.5em;
-    margin-right: 5em;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-#OpcionesLeft {
-    margin-left: 4em;
+#Logo {
+    margin-top: 1%;
+    margin-left: 25px;
+    width: 15%;
+    height: 15%;
 }
 
-#OpcionesRight .opciones{
-    font-size: 1.5em;
-    margin-left: 6em;
-    margin-right: 1em;
-}
-
-#OpcionesRight {
-    margin-left: 40em;
-}
-
-#Opciones {
+header {
     display: flex;
-    margin-top: 3.5em;
-    margin-left: 2em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
+header span {
+    font-size: 23px;
+    font-family: Arial, serif;
+}
+
+.menu {
+    display: flex;
+    gap: 230px;
+
+}
+
+.left-menu {
+    margin-right: auto;
+    margin-left: 7%;
+}
+
+.right-menu {
+    margin-left: auto;
+    margin-right: 7%;
+}
+
+.menu span {
+    cursor: pointer;
+}
