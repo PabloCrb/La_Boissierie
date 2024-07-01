@@ -23,7 +23,7 @@ header span {
 
 .menu {
     display: flex;
-    gap: 150px;
+    gap: 20vh;
 }
 
 .left-menu {
