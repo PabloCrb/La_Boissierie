@@ -1,29 +1,29 @@
 body {
     background-color: #EDEDED;
-}
-
-body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
 header {
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     background: linear-gradient(#C8CDE4, #EDEDED);
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Asegura que el header esté por encima del contenido */
 }
 
 header span {
-    font-size: 20px;
+    font-size: 17px;
     font-family: Arial, serif;
 }
 
 .menu {
     display: flex;
-    gap: 230px;
-
+    gap: 150px;
 }
 
 .left-menu {
@@ -40,8 +40,28 @@ header span {
     cursor: pointer;
 }
 
-
 #Logo {
+    z-index: 1001;
     width: 15%;
-    height: 15%;
+    height: auto;
+    position: sticky;
+    top: 1%;
+    left: 42.9%;
+}
+
+#TartaReina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -11%;
+}
+
+#TartaReina img {
+    width: 65%;
+    height: auto;
+    margin-top: 10%;
+}
+
+.Spacer {
+    height: 8vh;
 }
