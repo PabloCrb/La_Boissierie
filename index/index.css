@@ -1,13 +1,10 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+    background-color: #EDEDED;
 }
 
-#Logo {
-    margin-top: 1%;
-    margin-left: 25px;
-    width: 15%;
-    height: 15%;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 header {
@@ -15,10 +12,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    background: linear-gradient(#C8CDE4, #EDEDED);
 }
 
 header span {
-    font-size: 23px;
+    font-size: 20px;
     font-family: Arial, serif;
 }
 
@@ -40,4 +38,10 @@ header span {
 
 .menu span {
     cursor: pointer;
+}
+
+
+#Logo {
+    width: 15%;
+    height: 15%;
 }
