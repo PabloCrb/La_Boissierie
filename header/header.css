@@ -19,6 +19,7 @@ header {
 header span {
     font-size: 17px;
     font-family: Arial, serif;
+    color: black;
 }
 
 .menu {
@@ -40,11 +41,15 @@ header span {
     cursor: pointer;
 }
 
-#Logo {
+#LogoH {
     z-index: 1001;
     width: 15%;
     height: auto;
     position: sticky;
     top: 1%;
     left: 42.9%;
+}
+
+a {
+    text-decoration: none;
 }

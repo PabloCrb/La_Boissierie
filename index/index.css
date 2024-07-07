@@ -4,42 +4,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-header {
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background: linear-gradient(#C8CDE4, #EDEDED);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-header span {
-    font-size: 17px;
-    font-family: Arial, serif;
-}
-
-.menu {
-    display: flex;
-    gap: 20vh;
-}
-
-.left-menu {
-    margin-right: auto;
-    margin-left: 7%;
-}
-
-.right-menu {
-    margin-left: auto;
-    margin-right: 7%;
-}
-
-.menu span {
-    cursor: pointer;
-}
-
 #Logo {
     z-index: 1001;
     width: 15%;
@@ -65,4 +29,8 @@ header span {
 .Spacer {
     height: 8vh;
     z-index: -100;
+}
+
+a {
+    text-decoration: none;
 }
